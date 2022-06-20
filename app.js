@@ -9,7 +9,8 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+// Allow all links requesting
+app.use(cors());z
 
 app.listen(process.env.PORT, async () => {
   console.info(`Server is running at http://localhost:${process.env.PORT}`);
