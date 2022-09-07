@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 // Allow all links requesting
 const corsOptions = {
-  origin: "https://spaceseal.netlify.app",
+  origin: "https://kcavotingsystem.netlify.app/",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
